@@ -74,11 +74,15 @@ ingestion starts in Project 2, because that is when keeping every load matters.
 4. **What is the difference between soft delete and purge protection on Key Vault?**
 
    Answer:
-	| Soft delete |	Purge protection
-Purpose |	Recover from accidental deletion	Stop permanent deletion | during the retention period
-Delete action	| Item enters a recoverable deleted state	| Blocks the purge action
-During the retention period	| You can recover or purge it	| You can recover it, but nobody can purge it
-Can it be turned off? |	Cannot be disabled on new vaults	| Once on, cannot be turned off
+	 | | Soft delete | Purge protection |
+   |---|---|---|
+   | **Purpose** | Recover from accidental deletion | Stop permanent deletion during the retention period |
+   | **What it does** | A deleted item enters a recoverable state instead of disappearing | Blocks the purge action, so nobody can permanently delete the item early |
+   | **During the retention period** | You can recover or purge the item | You can recover the item, but nobody can purge it |
+   | **Can it be turned off?** | No, it is always on for new vaults | No, once enabled it cannot be turned off |
+   | **My lab setting** | On, 7 days | Off, so I can purge and reuse the vault name after teardown |
+   | **Production setting** | On | On, to protect against accidental or malicious permanent deletion |
+
 
 ### Data observations (from profiling the files)
 
