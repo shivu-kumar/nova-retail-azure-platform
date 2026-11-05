@@ -19,6 +19,9 @@ param location string = resourceGroup().location
 @description('Optional: your public IP, to reach the lake from your machine while learning. Leave empty for fully private.')
 param clientIp string = ''
 
+@description('Deploy private DNS zones and private endpoints (Part 1C). Leave false for Part 1B.')
+param deployPrivateNetworking bool = false
+
 param tags object = {
   workload: workload
   environment: env
@@ -60,6 +63,12 @@ resource vnet 'Microsoft.Network/virtualNetworks@2023-09-01' = {
         name: 'snet-private-endpoints'
         properties: {
           addressPrefix: '10.10.1.0/24'
+        }
+      }
+      {
+        name: 'snet-workload'
+        properties: {
+          addressPrefix: '10.10.2.0/24'
         }
       }
     ]
@@ -157,13 +166,13 @@ resource raKv 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
 }
 
 // ---------- Private DNS ----------
-resource zones 'Microsoft.Network/privateDnsZones@2020-06-01' = [for z in items(dnsZones): {
+resource zones 'Microsoft.Network/privateDnsZones@2020-06-01' = [for z in items(dnsZones): if (deployPrivateNetworking) {
   name: z.value
   location: 'global'
   tags: tags
 }]
 
-resource zoneLinks 'Microsoft.Network/privateDnsZones/virtualNetworkLinks@2020-06-01' = [for (z, i) in items(dnsZones): {
+resource zoneLinks 'Microsoft.Network/privateDnsZones/virtualNetworkLinks@2020-06-01' = [for (z, i) in items(dnsZones): if (deployPrivateNetworking) {
   parent: zones[i]
   name: 'link-${vnet.name}'
   location: 'global'
@@ -182,7 +191,7 @@ var endpoints = [
   { name: 'vault', targetId: kv.id, groupId: 'vault', zoneKey: 'vault' }
 ]
 
-resource pe 'Microsoft.Network/privateEndpoints@2023-09-01' = [for e in endpoints: {
+resource pe 'Microsoft.Network/privateEndpoints@2023-09-01' = [for e in endpoints: if (deployPrivateNetworking) {
   name: 'pe-${e.name}-${workload}-${env}'
   location: location
   tags: tags
@@ -202,7 +211,7 @@ resource pe 'Microsoft.Network/privateEndpoints@2023-09-01' = [for e in endpoint
   }
 }]
 
-resource peDns 'Microsoft.Network/privateEndpoints/privateDnsZoneGroups@2023-09-01' = [for (e, i) in endpoints: {
+resource peDns 'Microsoft.Network/privateEndpoints/privateDnsZoneGroups@2023-09-01' = [for (e, i) in endpoints: if (deployPrivateNetworking) {
   parent: pe[i]
   name: 'default'
   properties: {
