@@ -1,0 +1,18 @@
+# Secrets and local config
+*.env
+.env*
+*.key
+*.pem
+*.pfx
+.azure/
+local.settings.json
+
+# Bicep / Terraform build output
+*.json.bak
+.terraform/
+*.tfstate*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,101 @@
+ProductID,ProductName,Category,SubCategory,Brand,UnitCost,ListPrice,ProductRating
+P001,NovaBook 14,Electronics,Laptops,NovaTech,30440.0,41270.0,4.0
+P002,Nova X2,Electronics,Smartphones,OnePlus,23140.0,40170.0,3.9
+P003,Nova 50 4K TV,Electronics,Televisions,NovaVision,38000.0,55660.0,3.8
+P004,Mesh Executive Chair,Furniture,Office Chairs,FeatherLite,12700.0,16830.0,3.6
+P005,Compact Work Desk,Furniture,Desks,NovaHome,14330.0,20880.0,4.5
+P006,3 Drawer Cabinet,Furniture,Storage,Nilkamal,14270.0,21220.0,4.2
+P007,Gel Pen Pack,Office Supplies,Writing,Classmate,38.0,59.0,4.2
+P008,Photo Paper,Office Supplies,Paper,JK,308.0,527.0,4.2
+P009,Desk Lamp,Office Supplies,Desk Accessories,NovaOffice,1649.0,2919.0,4.5
+P010,Induction Cooktop,Home Appliances,Kitchen,Bajaj,4771.0,7342.0,4.0
+P011,Tower Fan,Home Appliances,Cooling,Bajaj,4495.0,6421.0,4.4
+P012,Steam Mop,Home Appliances,Cleaning,Philips,9280.0,17570.0,4.8
+P013,Mechanical Keyboard,Accessories,Computer Accessories,Logitech,3014.0,4607.0,4.6
+P014,Fast Charger,Accessories,Mobile Accessories,Anker,314.0,576.0,4.2
+P015,Neckband,Accessories,Audio,Sony,713.0,1072.0,4.1
+P016,NovaBook Air 15,Electronics,Laptops,Acer,40240.0,59080.0,4.0
+P017,Nova X2,Electronics,Smartphones,Motorola,12730.0,16730.0,4.0
+P018,Nova 55 QLED TV,Electronics,Televisions,Samsung,17460.0,30600.0,4.1
+P019,Ergo Chair,Furniture,Office Chairs,FeatherLite,5076.0,9014.0,4.7
+P020,Standing Desk,Furniture,Desks,NovaHome,18370.0,24420.0,4.0
+P021,Office Rack,Furniture,Storage,Nilkamal,6791.0,8965.0,3.2
+P022,Notebook A4,Office Supplies,Writing,Camlin,581.0,757.0,4.3
+P023,Printer Paper A4,Office Supplies,Paper,NovaOffice,462.0,646.0,3.8
+P024,Desk Organizer,Office Supplies,Desk Accessories,Portronics,1137.0,1958.0,4.4
+P025,Electric Kettle,Home Appliances,Kitchen,Bajaj,7950.0,10840.0,3.0
+P026,Room Heater,Home Appliances,Cooling,Symphony,4016.0,6192.0,4.6
+P027,Robot Vacuum,Home Appliances,Cleaning,Philips,22070.0,29250.0,4.1
+P028,Wireless Mouse,Accessories,Computer Accessories,Logitech,1339.0,1756.0,3.6
+P029,Wireless Earbuds,Accessories,Mobile Accessories,NovaTech,2470.0,4055.0,4.4
+P030,Over-Ear Headphones,Accessories,Audio,JBL,1440.0,2218.0,4.2
+P031,NovaBook Pro 13,Electronics,Laptops,NovaTech,36430.0,57700.0,3.6
+P032,Nova Ultra,Electronics,Smartphones,Motorola,31590.0,55260.0,4.6
+P033,Nova 65 QLED TV,Electronics,Televisions,Sony,54670.0,73440.0,4.6
+P034,Ergo Chair,Furniture,Office Chairs,GreenSoul,10440.0,14350.0,4.4
+P035,Executive Desk,Furniture,Desks,Wakefit,18770.0,29830.0,4.5
+P036,Office Rack,Furniture,Storage,Nilkamal,9040.0,11880.0,4.3
+P037,Notebook A5,Office Supplies,Writing,Classmate,75.0,129.0,4.9
+P038,Sticky Notes Pack,Office Supplies,Paper,PaperOne,340.0,582.0,3.6
+P039,Laptop Stand,Office Supplies,Desk Accessories,Portronics,1462.0,2717.0,3.4
+P040,Air Fryer,Home Appliances,Kitchen,Prestige,5132.0,8066.0,3.9
+P041,Portable Fan,Home Appliances,Cooling,Symphony,7300.0,11230.0,4.6
+P042,Steam Mop,Home Appliances,Cleaning,Philips,16270.0,26730.0,3.7
+P043,Webcam,Accessories,Computer Accessories,Portronics,902.0,1344.0,4.0
+P044,USB-C Cable,Accessories,Mobile Accessories,Portronics,1320.0,1900.0,4.1
+P045,Bluetooth Speaker,Accessories,Audio,Sony,10600.0,17120.0,4.1
+P046,NovaBook Pro 13,Electronics,Laptops,NovaTech,43850.0,77870.0,4.8
+P047,Nova Lite,Electronics,Smartphones,OnePlus,23610.0,31630.0,3.8
+P048,Nova 43 4K TV,Electronics,Televisions,Samsung,41940.0,57360.0,3.6
+P049,Lumbar Pro Chair,Furniture,Office Chairs,FeatherLite,9600.0,16550.0,3.8
+P050,Study Desk,Furniture,Desks,Wakefit,17140.0,29330.0,3.1
+P051,Office Rack,Furniture,Storage,NovaHome,5004.0,7688.0,3.8
+P052,Premium Ball Pen,Office Supplies,Writing,Classmate,305.0,467.0,4.3
+P053,Photo Paper,Office Supplies,Paper,PaperOne,338.0,599.0,3.3
+P054,Desk Lamp,Office Supplies,Desk Accessories,NovaOffice,416.0,669.0,4.0
+P055,Air Fryer,Home Appliances,Kitchen,Prestige,3220.0,4847.0,4.9
+P056,Room Heater,Home Appliances,Cooling,Usha,5248.0,9253.0,4.3
+P057,Steam Mop,Home Appliances,Cleaning,NovaHome,11540.0,21200.0,4.3
+P058,Wireless Mouse,Accessories,Computer Accessories,NovaTech,2888.0,4706.0,3.7
+P059,Phone Stand,Accessories,Mobile Accessories,NovaTech,1007.0,1551.0,4.0
+P060,Over-Ear Headphones,Accessories,Audio,Sony,9770.0,13250.0,3.5
+P061,NovaBook Pro 13,Electronics,Laptops,HP,54810.0,73460.0,4.6
+P062,Nova Lite,Electronics,Smartphones,NovaTech,26820.0,38880.0,3.6
+P063,Nova 55 QLED TV,Electronics,Televisions,Samsung,27570.0,51160.0,4.8
+P064,Mesh Executive Chair,Furniture,Office Chairs,NovaHome,10060.0,13620.0,2.5
+P065,Study Desk,Furniture,Desks,Wakefit,18910.0,25190.0,4.5
+P066,3 Drawer Cabinet,Furniture,Storage,NovaHome,6930.0,10060.0,4.1
+P067,Gel Pen Pack,Office Supplies,Writing,Classmate,83.0,151.0,3.5
+P068,Printer Paper A4,Office Supplies,Paper,PaperOne,310.0,538.0,4.2
+P069,Mouse Pad,Office Supplies,Desk Accessories,Philips,1340.0,1756.0,4.0
+P070,Toaster,Home Appliances,Kitchen,Bajaj,1828.0,2566.0,3.4
+P071,Air Cooler,Home Appliances,Cooling,Usha,7640.0,11190.0,3.9
+P072,Steam Mop,Home Appliances,Cleaning,NovaHome,21470.0,27540.0,4.9
+P073,Webcam,Accessories,Computer Accessories,Logitech,2081.0,3777.0,3.1
+P074,Fast Charger,Accessories,Mobile Accessories,NovaTech,2951.0,5198.0,3.8
+P075,Neckband,Accessories,Audio,NovaTech,11080.0,15820.0,4.3
+P076,NovaBook 15,Electronics,Laptops,Lenovo,35510.0,59840.0,4.7
+P077,Nova Lite,Electronics,Smartphones,NovaTech,36150.0,60780.0,4.5
+P078,Nova 43 4K TV,Electronics,Televisions,Samsung,82300.0,106200.0,3.8
+P079,Ergo Chair,Furniture,Office Chairs,NovaHome,5462.0,7470.0,3.1
+P080,Standing Desk,Furniture,Desks,Wakefit,10780.0,16830.0,4.6
+P081,Bookshelf,Furniture,Storage,Nilkamal,10610.0,15400.0,3.9
+P082,Marker Set,Office Supplies,Writing,Classmate,61.0,84.0,4.4
+P083,Photo Paper,Office Supplies,Paper,NovaOffice,247.0,430.0,4.4
+P084,Mouse Pad,Office Supplies,Desk Accessories,Portronics,340.0,473.0,4.1
+P085,Air Fryer,Home Appliances,Kitchen,Bajaj,4537.0,6199.0,4.9
+P086,Tower Fan,Home Appliances,Cooling,Usha,11770.0,17020.0,4.7
+P087,Vacuum Cleaner,Home Appliances,Cleaning,NovaHome,10910.0,17380.0,4.0
+P088,Laptop Sleeve,Accessories,Computer Accessories,Logitech,674.0,1073.0,4.6
+P089,Wireless Earbuds,Accessories,Mobile Accessories,Portronics,3072.0,4031.0,4.2
+P090,Soundbar,Accessories,Audio,NovaTech,4556.0,8673.0,3.3
+P091,NovaBook Pro 13,Electronics,Laptops,NovaTech,27250.0,43650.0,3.8
+P092,Nova X2,Electronics,Smartphones,Samsung,10290.0,18900.0,4.5
+P093,Nova 50 4K TV,Electronics,Televisions,Sony,41110.0,71160.0,4.3
+P094,Task Chair,Furniture,Office Chairs,GreenSoul,3297.0,5962.0,4.0
+P095,Compact Work Desk,Furniture,Desks,NovaHome,14130.0,20820.0,5.0
+P096,Bookshelf,Furniture,Storage,Nilkamal,12340.0,21530.0,3.6
+P097,Marker Set,Office Supplies,Writing,Camlin,258.0,338.0,4.2
+P098,Sticky Notes Pack,Office Supplies,Paper,NovaOffice,390.0,567.0,4.7
+P099,Desk Lamp,Office Supplies,Desk Accessories,NovaOffice,1864.0,2792.0,3.5
+P100,Electric Kettle,Home Appliances,Kitchen,NovaHome,5033.0,7241.0,4.6

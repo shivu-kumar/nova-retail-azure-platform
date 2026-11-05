@@ -1,0 +1,21 @@
+StoreID,StoreName,City,State,Region,StoreType
+S001,Nova Bengaluru Mall 1,Bengaluru,Karnataka,South,Mall
+S002,Nova Chennai Express 2,Chennai,Tamil Nadu,South,Express
+S003,Nova Hyderabad Mall 3,Hyderabad,Telangana,South,Mall
+S004,Nova Kochi High Street 4,Kochi,Kerala,South,High Street
+S005,Nova Mumbai Express 5,Mumbai,Maharashtra,West,Express
+S006,Nova Pune Mall 6,Pune,Maharashtra,West,Mall
+S007,Nova Ahmedabad Mall 7,Ahmedabad,Gujarat,West,Mall
+S008,Nova Surat High Street 8,Surat,Gujarat,West,High Street
+S009,Nova Jaipur Mall 9,Jaipur,Rajasthan,North,Mall
+S010,Nova New Delhi High Street 10,New Delhi,Delhi,North,High Street
+S011,Nova Lucknow High Street 11,Lucknow,Uttar Pradesh,North,High Street
+S012,Nova Chandigarh High Street 12,Chandigarh,Punjab,North,High Street
+S013,Nova Kolkata High Street 13,Kolkata,West Bengal,East,High Street
+S014,Nova Patna High Street 14,Patna,Bihar,East,High Street
+S015,Nova Bhubaneswar High Street 15,Bhubaneswar,Odisha,East,High Street
+S016,Nova Bengaluru Mall 16,Bengaluru,Karnataka,South,Mall
+S017,Nova Mumbai High Street 17,Mumbai,Maharashtra,West,High Street
+S018,Nova New Delhi Express 18,New Delhi,Delhi,North,Express
+S019,Nova Chennai High Street 19,Chennai,Tamil Nadu,South,High Street
+S020,Nova Kolkata Online 20,Kolkata,West Bengal,East,Online
