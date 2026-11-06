@@ -10,4 +10,4 @@ param clientIp = ''
 
 // Part 1B: false (storage, Key Vault, identity, VNet only).
 // Part 1C: set to true to add private DNS zones and private endpoints.
-param deployPrivateNetworking = false
+param deployPrivateNetworking = true
